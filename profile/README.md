@@ -5,6 +5,10 @@ pip
 ```shell
 pip install git+https://github.com/open3rds/${python_module}.git
 ```
+requirements.txt
+```shell
+git+git://github.com/open3rds/${python_module}.git@0.1#egg=${python_module}
+```
 
 ## C++
 
